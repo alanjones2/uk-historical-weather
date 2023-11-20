@@ -81,7 +81,7 @@ def makedf(i):
     weather=weather.dropna(subset=['Year'])
 
     # drop rows where there isn't a complete set of data
-    weather = weather.dropna(subset=['Tmax','Tmin','Rain','Sun','AF'])
+    #weather = weather.dropna(subset=['Tmax','Tmin','Rain','Sun','AF'])
 
     # Add a mean temp column
     weather['Tmean'] =  (weather['Tmax'] +  weather['Tmin'])
