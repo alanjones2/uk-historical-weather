@@ -22,3 +22,5 @@ Additionally, a mean temperature column has been added. The data columns are:
 - Tmean: mean monthly temperature in ºC
 
 This data is distributed in accordance with [UK Open Government License](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) and may be used under the same conditions.
+
+_Note: the software in this repo is for educational purposes, only. It should not be considered suitable for production code._
