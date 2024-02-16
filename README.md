@@ -6,9 +6,9 @@ The data is derived from the Met Office text data found here
 
 [https://www.metoffice.gov.uk/research/climate/maps-and-data/historic-station-data](https://www.metoffice.gov.uk/research/climate/maps-and-data/historic-station-data)
 
-The original data represented null values as the string '---'. These have been replaced with null values. Also the original data distinguished between two types of sunshine measurement - this has been removed. See the Met office page, above, for more detail.
+The original data represented null values as the string '---'. These have been replaced with actual null values. Also the original data distinguished between two types of sunshine measurement - this has been removed. See the Met office page, above, for more detail.
 
-Additionally, a mean temperature column has been added. The data columns are:
+Additionally, mean temperature, status and date columns have been added. The data columns are:
 
 - Year: year of measurement
 - Month: month of measurement
