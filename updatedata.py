@@ -84,7 +84,7 @@ def makedf(i):
     #weather = weather.dropna(subset=['Tmax','Tmin','Rain','Sun','AF'])
 
     # Add a mean temp column
-    weather['Tmean'] =  (weather['Tmax'] +  weather['Tmin'])
+    weather['Tmean'] =  (weather['Tmax'] +  weather['Tmin'])/2
 
     # change year and month to integers
     weather=weather.astype({'Year':'int32','Month':'int32'})
